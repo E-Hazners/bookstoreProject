@@ -1,0 +1,159 @@
+@charset "UTF-8";
+* {
+  --primaryColor: rgb(255, 241, 230);
+  --secondaryColor: rgb(216, 126, 54);
+  --thirdColor: #ffc98f;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+nav {
+	min-height: 4vh;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  	position: sticky;
+  	top: 0;
+  	background-color: var(--secondaryColor);
+  	padding:2rem;
+}
+
+.add {
+	text-align: left;
+	padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primaryColor);
+}
+.greeting {
+	padding-left: 3rem;
+	padding-right: 3rem;
+	text-align: left;
+	padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--thirdColor);
+}
+
+.link {
+	text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color:var(--primaryColor);
+}
+
+table {
+	margin-top: 64px;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-color: var(--secondaryColor);
+}
+
+tbody {
+	font-size: 24px;
+}
+
+th, td {
+	padding: 0.25rem;
+}
+
+th {
+	padding: 0.5rem;
+	font: var(--headerFont);
+	font-size: 64px;
+	border: 0px solid;
+	position: sticky;
+  	top: 5.8rem;
+	background-color: var(--secondaryColor);
+	color: var(--primaryColor);
+}
+
+.delete {
+	background-color: var(--secondaryColor);
+	border: none;
+	color: var(--primaryColor);
+	padding: 8px 12px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.edit {
+	background-color: var(--secondaryColor);
+	border: none;
+	color: var(--primaryColor);
+	padding: 8px 12px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.add {
+	background-color: var(--primaryColor);
+	border: none;
+	color: var(--secondaryColor);
+	padding: 8px 12px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.divAdd {
+	text-align: center;
+	width: 100%;
+	padding: 6px 0px;
+	margin: 8px 0;
+	display: block;
+	border: 1px solid var(--primaryColor);
+	border-radius: 12px;
+	box-sizing: border-box;
+}
+
+.givenInput {
+	text-align: "center";
+	width: 97%;
+	background-color: white;
+	color: var(--secondaryColor);
+	padding: 14px 0px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.submitButton {
+	text-align: "center";
+	width: 97%;
+	background-color: var(--secondaryColor);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.answer {
+	text-align: center;
+	font-size: 2rem;
+}
+
+
+a:link { text-decoration: none; color: var(--primaryColor); }
+
+a:visited { text-decoration: none; color: var(--primaryColor); }
+
+a:hover { text-decoration: none; color: var(--primaryColor); }
+
+a:active { text-decoration: none; color: var(--primaryColor); }
+
